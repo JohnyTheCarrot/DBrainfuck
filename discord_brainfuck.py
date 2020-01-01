@@ -1,6 +1,6 @@
 import sys
 
-help = "python3 discord_brainfuck.py [file_here.dbf] [bot token]"
+help = "python3 discord_brainfuck.py [dbf_code_file_here] [bot token file]"
 
 if len(sys.argv) != 3:
     print(help)
